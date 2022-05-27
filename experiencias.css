@@ -76,6 +76,24 @@ h2 {
   right: 480px;
 }
 
+.empresa-designer {
+  position: absolute;
+  width: 135px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -440px;
+  right: 583px;
+}
+
+.empresa-social {
+  position: absolute;
+  width: 135px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -600px;
+  right: 583px;
+}
+
 .empresa-titulo-um {
   position: absolute;
   width: 119px;
@@ -83,6 +101,28 @@ h2 {
   font-size: 18px;
   line-height: 123%;
   bottom: -285px;
+  left: 495px;
+  right: 452px;
+}
+
+.empresa-titulo-dois {
+  position: absolute;
+  width: 101px;
+  height: 22.5px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -440px;
+  left: 495px;
+  right: 452px;
+}
+
+.empresa-titulo-tres {
+  position: absolute;
+  width: 164px;
+  height: 22.5px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -600px;
   left: 495px;
   right: 452px;
 }
@@ -105,6 +145,24 @@ h2 {
   left: 495px;
 }
 
+.empresa-texto-dois {
+  position: absolute;
+  width: 388px;
+  font-size: 14px;
+  line-height: 125%;
+  bottom: -470px;
+  left: 495px;
+}
+
+.empresa-texto-tres {
+  position: absolute;
+  width: 532px;
+  font-size: 14px;
+  line-height: 125%;
+  bottom: -650px;
+  left: 495px;
+}
+
 .empresa-ano {
   position: absolute;
   width: 37px;
@@ -124,13 +182,24 @@ h2 {
   left: 370px;
 }
 
-.pai::before {
-  content: url(./img/Rectangulao.svg);
-  width: 893px;
-  height: 140px;
+.empresa-ano-dois {
   position: absolute;
-  bottom: -220px;
-  left: 480px;
+  width: 36px;
+  height: 22px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -450px;
+  left: 390px;
+}
+
+.empresa-ano-tres {
+  position: absolute;
+  width: 59px;
+  height: 22px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -615px;
+  left: 370px;
 }
 
 .pai {
@@ -183,12 +252,85 @@ h2 {
   left: 37px;
 }
 
+.empresa-habilidades-dois {
+  position: absolute;
+  right: 520px;
+  bottom: -645px;
+  display: flex;
+  gap: 5px;
+  width: 237px;
+  height: 63px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.empresa-habilidades-dois li {
+  background: #8453dd;
+  border-radius: 4px;
+  line-height: 1.4;
+  font-size: 0.875rem;
+  padding: 5px;
+  bottom: 130px;
+  position: relative;
+  left: 37px;
+}
+
+.empresa-habilidades-tres {
+  position: absolute;
+  right: 520px;
+  bottom: -805px;
+  display: flex;
+  gap: 5px;
+  width: 237px;
+  height: 63px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.empresa-habilidades-tres li {
+  background: #8453dd;
+  border-radius: 4px;
+  line-height: 1.4;
+  font-size: 0.875rem;
+  padding: 5px;
+  bottom: 130px;
+  position: relative;
+  left: 37px;
+}
+
+.pai::before {
+  content: url(./img/Rectangulao.svg);
+  width: 893px;
+  height: 140px;
+  position: absolute;
+  bottom: -220px;
+  left: 480px;
+}
+
 .empresa::before {
   content: url(./img/Rectangulao.svg);
   width: 893px;
   height: 140px;
   position: absolute;
   bottom: -380px;
+  left: 480px;
+}
+
+.empresa-dois::before {
+  content: url(./img/Rectangulao.svg);
+  width: 893px;
+  height: 140px;
+  position: absolute;
+  bottom: -540px;
+  left: 480px;
+}
+
+.empresa-tres::before {
+  content: url(./img/Rectangulao.svg);
+  width: 893px;
+  height: 140px;
+  position: absolute;
+  bottom: -700px;
   left: 480px;
 }
 
