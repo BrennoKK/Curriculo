@@ -12,7 +12,8 @@ h2 {
   margin-top: 250px;
   position: absolute;
   left: 495px;
-  right: 840px;
+  right: 540px;
+  top: -120px;
 }
 
 .sub p {
@@ -21,16 +22,17 @@ h2 {
   line-height: 123%;
   position: absolute;
   left: 495px;
-  right: 840px;
-  bottom: -420px;
+  right: 950px;
+  bottom: -293px;
 }
+
 .elemento::before {
   content: url(./img/barras-duplas.svg);
   width: 76px;
   height: 56px;
   position: absolute;
-  left: 485px;
-  top: 965px;
+  left: 480px;
+  top: 845px;
 }
 
 .elemento-dois::before {
@@ -39,5 +41,162 @@ h2 {
   height: 3px;
   position: absolute;
   left: 480px;
-  top: 1020px;
+  top: 900px;
 }
+
+/* .pai {
+  position: relative;
+} */
+
+.empresa-titulo {
+  position: absolute;
+  width: 200px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -120px;
+  left: 495px;
+}
+
+.empresa-aluno {
+  position: absolute;
+  width: 48px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -120px;
+  left: 1145px;
+  right: 452px;
+}
+
+.empresa-estagio {
+  position: absolute;
+  width: 240px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -280px;
+  right: 480px;
+}
+
+.empresa-titulo-um {
+  position: absolute;
+  width: 119px;
+  height: 22.5px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -285px;
+  left: 495px;
+  right: 452px;
+}
+
+.empresa-texto {
+  position: absolute;
+  width: 525px;
+  font-size: 14px;
+  line-height: 125%;
+  bottom: -170px;
+  left: 495px;
+}
+
+.empresa-texto-um {
+  position: absolute;
+  width: 532px;
+  font-size: 14px;
+  line-height: 125%;
+  bottom: -335px;
+  left: 495px;
+}
+
+.empresa-ano {
+  position: absolute;
+  width: 37px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -120px;
+  left: 390px;
+}
+
+.empresa-ano-um {
+  position: absolute;
+  width: 59px;
+  height: 22px;
+  font-size: 18px;
+  line-height: 123%;
+  bottom: -285px;
+  left: 370px;
+}
+
+.pai::before {
+  content: url(./img/Rectangulao.svg);
+  width: 893px;
+  height: 140px;
+  position: absolute;
+  bottom: -220px;
+  left: 480px;
+}
+
+.pai {
+  /* position: relative; */
+  bottom: 120px;
+}
+
+.empresa-habilidades {
+  position: absolute;
+  right: 520px;
+  bottom: -330px;
+  display: flex;
+  gap: 5px;
+  width: 200px;
+  height: 63px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.empresa-habilidades li {
+  background: #8453dd;
+  border-radius: 4px;
+  line-height: 1.4;
+  font-size: 0.875rem;
+  padding: 5px;
+  bottom: 130px;
+  position: relative;
+}
+
+.empresa-habilidades-um {
+  position: absolute;
+  right: 520px;
+  bottom: -485px;
+  display: flex;
+  gap: 5px;
+  width: 237px;
+  height: 63px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.empresa-habilidades-um li {
+  background: #8453dd;
+  border-radius: 4px;
+  line-height: 1.4;
+  font-size: 0.875rem;
+  padding: 5px;
+  bottom: 130px;
+  position: relative;
+  left: 37px;
+}
+
+.empresa::before {
+  content: url(./img/Rectangulao.svg);
+  width: 893px;
+  height: 140px;
+  position: absolute;
+  bottom: -380px;
+  left: 480px;
+}
+
+/* .experiencia {
+  max-width: 1200px;
+  /* padding: 40px 20px; */
+/* margin: 0 auto; */
+/* display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px; */
+/* } */
