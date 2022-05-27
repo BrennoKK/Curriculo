@@ -1,0 +1,43 @@
+section {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+h2 {
+  width: 277px;
+  font-size: 48px;
+  line-height: 120%;
+  margin-top: 250px;
+  position: absolute;
+  left: 495px;
+  right: 840px;
+}
+
+.sub p {
+  width: 706px;
+  height: 76px;
+  line-height: 123%;
+  position: absolute;
+  left: 495px;
+  right: 840px;
+  bottom: -420px;
+}
+.elemento::before {
+  content: url(./img/barras-duplas.svg);
+  width: 76px;
+  height: 56px;
+  position: absolute;
+  left: 485px;
+  top: 965px;
+}
+
+.elemento-dois::before {
+  content: url(./img/barrao.svg);
+  width: 860px;
+  height: 3px;
+  position: absolute;
+  left: 480px;
+  top: 1020px;
+}
